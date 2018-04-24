@@ -17,4 +17,4 @@ Run `ng build` to build the project. Build directory is `dist/`.
 
 ## Deploy
 
-Live version of the application running on (https://todoapp-c064c.firebaseapp.com/), deployed through Firebase Hosting.
+Live version of the application running on [Firebase Hosting](https://todoapp-c064c.firebaseapp.com/), deployed through Firebase Hosting.
