@@ -11,6 +11,7 @@ import { TodoListHeaderComponent } from './todo-list-header/todo-list-header.com
 import { TodoListItemComponent } from './todo-list-item/todo-list-item.component';
 
 import {MatIconModule} from '@angular/material';
+import { ApiService } from './api.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +25,10 @@ import {MatIconModule} from '@angular/material';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MatIconModule
+    MatIconModule,
+    HttpModule,
   ],
-  providers: [TodoDataService],
+  providers: [TodoDataService, ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
