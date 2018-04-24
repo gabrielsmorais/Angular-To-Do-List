@@ -18,3 +18,4 @@ Run `ng build` to build the project. Build directory is `dist/`.
 ## Deploy
 
 Live version of the application running on [Firebase Hosting](https://todoapp-c064c.firebaseapp.com/), deployed through Firebase Hosting.
+** IF THERE ARE NO ITEMS IN THE LIST ON FIREBASE HOSTING, THE `json DB` IS OFFLINE. PLEASE CLONE THE REPOSITORY AND RUN THE STEPS ON Dev Server **
