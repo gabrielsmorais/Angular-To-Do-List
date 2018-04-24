@@ -1,0 +1,81 @@
+h1 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 6rem;
+    font-weight: lighter;
+    text-align: center;
+    color: #492320;
+    margin-bottom: 0;
+}
+
+span {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: #313131;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+
+    input {
+        font-family: 'Montserrat', sans-serif;
+        width: 30%;
+        padding: 8px 0 8px 0;
+        font-size: 1.5rem;
+        align-self: center;
+        border: 0;
+        background: none;
+        outline: 0;
+        border-bottom: 3px solid #313131;
+        text-align:center;
+    }
+
+    input:hover {
+        border-bottom: 3px solid #492320;
+        transition: all 0.3s ease-in-out;
+    }
+
+    input::placeholder {
+        color: #492320;
+        transition: all 0.3s ease-in-out;
+    }
+
+    input:hover::placeholder {
+        color: #8B2525;
+        transition: all 0.3s ease-in-out;
+    }
+
+    input:focus::placeholder {
+        color: #8B2525;
+        transition: all 0.3s ease-in-out;
+      }
+}
+
+@media only screen and (max-width: 600px) { 
+    
+    h1 {
+        font-size: 4rem;
+        margin-top: 40px;
+    }
+
+    header input {
+        width: 80%;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    
+    header input {
+        width: 50%;
+        font-size: 1.5rem;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    
+    header input {
+        width: 30%;
+        font-size: 1.5rem;
+    }
+} 

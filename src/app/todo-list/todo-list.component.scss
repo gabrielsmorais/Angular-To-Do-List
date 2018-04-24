@@ -1,0 +1,11 @@
+li {
+    list-style: none;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+ul.todo-list {
+    padding: 0 !important;
+}
